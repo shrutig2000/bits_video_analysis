@@ -1,11 +1,12 @@
 # 📘 Video Analysis Assignment – M.Tech (AI/ML)
 
 ## 🧑‍🎓 Student Details
-- **Name:** Shruti Gurunathan  
+- **Name:** G Shruti  
 - **Program:** M.Tech (Artificial Intelligence & Machine Learning)  
 - **Institution:** BITS Pilani  
 - **Course:** Video Analysis  
-- **Repository:** `bits_video_analysis`
+- **BITS_ID** `2024ac05668`
+
 
 ---
 
@@ -54,16 +55,20 @@ bits_video_analysis/
 │   ├── part_a_classical.pdf
 │   ├── part_b_deep_learning.pdf
 │   ├── comparative_analysis.pdf
-│   └── final_report.pdf
+│   └── Student_Comparative_report.pdf
 │
 ├── dataset_info/
 │   ├── dataset_url.txt
 │   ├── dataset_description.md
 │   ├── data_statistics.txt
-│   └── sample_frames/            # Optional screenshots
+├── results/
+│   ├── confusion_matrices/       # Confusion matrix images
+│   ├── performance_plots/        # Accuracy and ROC plots
+│   └── feature_visualizations/   # LBP, motion, and feature examples
+│
 │
 ├── requirements.txt              # Python dependencies
-
+└── README.md
 ```
 ----------------------------------
 ## ⚙️ Technologies & Tools Used
@@ -104,6 +109,9 @@ limited data conditions.
 Deep learning models showed potential for spatiotemporal representation
 learning but were constrained by dataset size and training duration.
 
+Performance plots, confusion matrices, and feature visualizations are
+available in the results/ directory.
+
 A detailed comparative discussion, including performance metrics,
 confusion matrices, ROC analysis, and error analysis, is provided in the
 final report.
@@ -112,15 +120,18 @@ final report.
 
 This repository is intended strictly for academic and educational purposes.
 
-Due to size constraints, the full dataset is not included; only dataset
-metadata and sample frames are provided.
+The HMDB51 dataset was obtained via a Kaggle mirror; the full dataset is
+not included due to size constraints.
 
-Experimental results may vary depending on system configuration and library
-versions.
+Only dataset metadata, sample frames, and result visualizations are
+provided.
+
+Experimental results may vary depending on system configuration and
+library versions.
 
 **📎 References**
 
-HMDB51 Dataset
+HMDB51 Dataset (Kaggle mirror)
 
 Course lecture materials (Video Analysis – BITS Pilani)
 
