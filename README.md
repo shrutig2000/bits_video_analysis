@@ -1,100 +1,67 @@
-📘 Video Analysis Assignment – M.Tech (AI/ML)
-🧑‍🎓 Student Details
+# 📘 Video Analysis Assignment – M.Tech (AI/ML)
 
-Name: Shruti Gurunathan
+## 🧑‍🎓 Student Details
+- **Name:** G Shruti 
+- **Program:** M.Tech (Artificial Intelligence & Machine Learning)  
+- **Institution:** BITS Pilani  
+- **Course:** Video Analysis  
+- **BITS_ID:** `2024ac05668`
 
-Program: M.Tech (AI/ML)
+---
 
-Institution: BITS Pilani
+## 📌 Assignment Overview
 
-Course: Video Analysis
+This repository contains the complete implementation, analysis, and documentation
+for the **Video Analysis course assignment**. The assignment focuses on
+understanding and comparing **classical computer vision techniques** and
+**deep learning–based approaches** for video classification using Python.
 
-Repository: bits_video_analysis
+The work emphasizes:
+- Conceptual understanding of video analytics
+- Practical implementation of classical and deep learning models
+- Experimental evaluation using standard performance metrics
+- Clear documentation and reproducibility
 
-📌 Assignment Overview
+---
 
-This repository contains notebooks and supporting documents developed as part of the Video Analysis course assignment.
-The work focuses on understanding, implementing, and experimenting with fundamental and advanced concepts in video processing and analysis using Python.
+## 🧠 Topics Covered
 
-The assignment emphasizes:
+The repository explores the following key concepts:
 
-Conceptual clarity
+- Video frame extraction and preprocessing  
+- Temporal information analysis in video sequences  
+- Motion estimation and action understanding  
+- Hand-crafted feature extraction (color, texture, motion)  
+- Classical machine learning models for video classification  
+- Deep learning approaches using CNNs (2D CNN with temporal pooling, 3D CNN demonstration)  
+- Performance evaluation and comparative analysis  
 
-Practical implementation
+(Detailed explanations and experiments are provided within individual notebooks
+and the final report.)
 
-Experimental evaluation
+---
 
-Clear documentation of results
+## 📂 Repository Structure
 
-🧠 Topics Covered
-
-The notebooks in this repository explore concepts such as:
-
-Video frame extraction and preprocessing
-
-Temporal information analysis
-
-Motion estimation and understanding
-
-Feature extraction from video sequences
-
-Basic video analytics using OpenCV and deep learning tools
-
-(Specific techniques and experiments are explained inside individual notebooks.)
-
-📂 Repository Structure
-├── *.ipynb        # Jupyter notebooks for experiments and analysis
-├── *.pdf          # Assignment descriptions / reference materials
-├── .gitignore     # Ignored files and folders
-└── README.md      # Project documentation
-
-⚙️ Technologies & Tools Used
-
-Python
-
-Jupyter Notebook
-
-OpenCV
-
-NumPy
-
-PyTorch / Deep Learning libraries (where applicable)
-
-▶️ How to Run the Notebooks
-
-Clone the repository:
-
-git clone https://github.com/shrutig2000/bits_video_analysis.git
-
-
-Navigate to the project folder:
-
-cd bits_video_analysis
-
-
-Open Jupyter Notebook:
-
-jupyter notebook
-
-
-Run the required .ipynb files sequentially.
-
-📊 Results & Observations
-
-Each notebook contains inline explanations, visual outputs, and observations.
-
-Results are analyzed with respect to the theoretical concepts discussed in the course.
-
-📝 Notes
-
-The code is written for educational and academic purposes.
-
-Outputs may vary depending on system configuration and library versions.
-
-📎 References
-
-Course lecture materials
-
-Standard video analysis and computer vision resources
-
-OpenCV & PyTorch documentation
+```text
+bits_video_analysis/
+│
+├── part_a_classical.ipynb        # Classical video classification approaches
+├── part_b_deep_learning.ipynb    # Deep learning–based video classification
+├── comparative_analysis.ipynb    # Comparative analysis and visualizations
+│
+├── reports/
+│   ├── part_a_classical.pdf
+│   ├── part_b_deep_learning.pdf
+│   ├── comparative_analysis.pdf
+│   └── final_report.pdf
+│
+├── dataset_info/
+│   ├── dataset_url.txt
+│   ├── dataset_description.md
+│   ├── data_statistics.txt
+│   └── sample_frames/            # Optional example frames
+│
+├── requirements.txt              # Python dependencies
+├── .gitignore
+└── README.md
